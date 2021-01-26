@@ -1,0 +1,1 @@
+var index = {"Tags":{"P1":["specs/LPG-02_paypal.html"],"wip":["specs/LPG-02_paypal.html"]},"Specs":{"LPG-02 Create All Inclusive Pass, Paypal, No Tips":["specs/LPG-02_paypal.html"]}};

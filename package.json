@@ -1,0 +1,31 @@
+{
+  "name": "lpg",
+  "version": "1.0.0",
+  "description": "End to End tests for Go City Boston",
+  "homepage": "https://gocity.com/boston/en-us/products/all-inclusive",
+  "private": true,
+  "main": "index.js",
+  "contributors": [
+    "Priyanka Sahoo"
+  ],
+  "scripts": {
+    "wip": "gauge run -p --tags 'wip' specs/*.spec",
+    "test": "gauge run -p -n=4 specs/*.spec"
+  },
+  "keywords": [],
+  "author": "Priyanka Sahoo",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "casual": "^1.6.2",
+    "dotenv": "^8.2.0",
+    "expect": "^24.9.0",
+    "moment": "^2.24.0",
+    "node": "^15.4.0",
+    "taiko": "^1.0.18",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {
+    "@getgauge/cli": "^1.0.7"
+  }
+}
